@@ -1,7 +1,10 @@
 # nodehome-server
 Node home project - mosca docker container
 
-#### Install
+#### DB install 
+docker run -p 27017:27017 -v /data/db:/data/db cretzel/rpi-mongodb
+
+#### Server Install
 - pull code
 ```bash
 sudo docker build -q -t nodehome/rpinodemosca .
