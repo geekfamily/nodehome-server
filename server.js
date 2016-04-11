@@ -3,7 +3,7 @@ var mosca = require('mosca')
 var ascoltatore = {
   //using ascoltatore
   type: 'mongo',        
-  url: 'mongodb://192.168.1.157:27017/mqtt',
+  url: 'mongodb://localhost:27017/mqtt',
   pubsubCollection: 'ascoltatori',
   mongo: {}
 };
